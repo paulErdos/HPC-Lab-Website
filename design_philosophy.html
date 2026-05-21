@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPC Lab | System Inventory</title>
+    <style>
+        :root {
+            --paper: #ffffff;
+            --ink: #222222;
+            --muted: #777777;
+            --rule: #eeeeee;
+            --accent: #0044cc;
+            --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: #fcfcfc;
+            color: var(--ink);
+            font-family: var(--font-sans);
+            padding: 40px 20px;
+            line-height: 1.5;
+        }
+
+        .wrapper {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--paper);
+            padding: 60px;
+            border: 1px solid #ddd;
+        }
+
+        header {
+            border-bottom: 2px solid var(--ink);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        .breadcrumb {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+        .breadcrumb a { color: var(--accent); text-decoration: none; }
+
+        h1 { font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px; }
+
+        .specs-section { margin-bottom: 40px; }
+        
+        h2 {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            background: #f4f4f4;
+            padding: 5px 10px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        th {
+            text-align: left;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--muted);
+            border-bottom: 1px solid var(--ink);
+            padding: 10px;
+        }
+
+        td {
+            padding: 12px 10px;
+            border-bottom: 1px solid var(--rule);
+            vertical-align: top;
+        }
+
+        .node-id { font-family: var(--font-mono); font-weight: bold; }
+        .tech-detail { color: var(--muted); font-size: 0.85rem; }
+
+        footer {
+            margin-top: 50px;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--muted);
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="breadcrumb">
+        <a href="index.html">RETURN TO INDEX</a> / PHILOSOPHY
+    </div>
+
+    <header>
+        <h1>Design Phylosophy</h1>
+        <p style="color: var(--muted);">Priorities that guide hardware selection decisionmaking.</p>
+    </header>
+
+    <section class="specs-section">
+        <h2>01. item1</h2>
+        <p>foobar</p>
+    </section>
+
+    <section class="specs-section">
+        <h2>02. item2</h2>
+        <p>foobar</p>
+    </section>
+
+    <footer>
+        2026-05-10 // CALIFORNIA_USA
+    </footer>
+</div>
+
+</body>
+</html>
